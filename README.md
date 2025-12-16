@@ -113,6 +113,31 @@
     }
   </style>
 </head>
+<!-- Botón WhatsApp -->
+<a href="https://wa.me/573001234567" class="whatsapp" target="_blank">
+  💬
+</a>
+
+<style>
+.whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25D366;
+  color: white;
+  font-size: 26px;
+  padding: 16px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1);
+}
+</style>
 
 <body>
 
