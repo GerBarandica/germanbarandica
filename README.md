@@ -114,7 +114,7 @@
   </style>
 </head>
 <!-- Botón WhatsApp -->
-<a href="https://wa.me/573001234567" class="whatsapp" target="_blank">
+<a href="https://wa.me/573164234127" class="whatsapp" target="_blank">
   💬
 </a>
 
@@ -234,7 +234,7 @@
 
 <section>
   <h2>Contacto / Contact</h2>
-  <p>Email: <strong>tucorreo@email.com</strong></p>
+  <p>Email: <strong>zonacolombia@gmail.com</strong></p>
   <p>
     <a href="#">LinkedIn</a> ·
     <a href="#">Workana</a> ·
