@@ -141,13 +141,63 @@
 
 <body>
 
-<header>
-  <h1>German Barandica</h1>
-  <p>
-    Visualización 3D · Renders para Eventos · Producción Ejecutiva<br>
-    3D Visualization · Event Renders · Executive Production
-  </p>
+<header class="hero">
+  <video autoplay muted loop playsinline>
+    <source src="imagenes/hero.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-content">
+    <h1>German Barandica</h1>
+    <p>
+      Visualización 3D · Renders para Eventos · Producción Ejecutiva<br>
+      3D Visualization · Event Renders · Executive Production
+    </p>
+  </div>
 </header>
+
+<style>
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  margin: 0;
+}
+
+.hero-content p {
+  max-width: 900px;
+  color: #ddd;
+  font-size: 18px;
+  margin-top: 20px;
+}
+</style>
+
 
 <section>
   <h2>Sobre mí / About me</h2>
