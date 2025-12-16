@@ -143,7 +143,7 @@
 
 <header class="hero">
   <video autoplay muted loop playsinline>
-    <source src="imagenes/hero.mp4" type="video/mp4">
+    <source src="imagenes/kdzV6_caribbeanSoul.mp4" type="video/mp4">
   </video>
 
   <div class="hero-content">
