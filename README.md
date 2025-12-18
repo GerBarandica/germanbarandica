@@ -258,9 +258,7 @@
 
   <div class="grid">
     <div class="card">
-      <img src="    germanbarandica
-
-/SuraFest_2 - Foto.jpg" alt="Event Render">
+      <img src="germanbarandica/SuraFest_2-Foto.jpg" alt="Event Render">
       <p>Render de stand para evento corporativo</p>
     </div>
 
