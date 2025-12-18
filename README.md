@@ -143,7 +143,7 @@
 
 <header class="hero">
   <video autoplay muted loop playsinline>
-    <source src="imagenes/kdzV6_caribbeanSoul.mp4" type="video/mp4">
+    <source src="imagenes/hero.mp4" type="video/mp4">
   </video>
 
   <div class="hero-content">
@@ -258,7 +258,9 @@
 
   <div class="grid">
     <div class="card">
-      <img src="imagenes/render1.jpg" alt="Event Render">
+      <img src="    germanbarandica
+
+/SuraFest_2 - Foto.jpg" alt="Event Render">
       <p>Render de stand para evento corporativo</p>
     </div>
 
