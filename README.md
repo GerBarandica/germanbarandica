@@ -168,7 +168,7 @@
 
 <section>
   <h2>Sobre mí / About me</h2>
-  <p class="sub">Perfil creativo enfocado en visualización y eventos</p>
+  <p class="sub"
   <p>
     Profesional creativo con experiencia en renders 3D para eventos,
     stands y espacios comerciales, así como producción audiovisual y
