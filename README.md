@@ -141,11 +141,7 @@
 
 <body>
 
-<header class="hero">
-  <video autoplay muted loop playsinline>
-    <source src="imagenes/hero.mp4" type="video/mp4">
-  </video>
-
+<header class="hero-img">
   <div class="hero-content">
     <h1>German Barandica</h1>
     <p>
@@ -156,45 +152,16 @@
 </header>
 
 <style>
-.hero {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.hero video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
-  filter: brightness(0.5);
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-  height: 100%;
+.hero-img {
+  height: 90vh;
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("imagenes/hero.jpg") center/cover no-repeat;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.hero-content h1 {
-  font-size: 56px;
-  margin: 0;
-}
-
-.hero-content p {
-  max-width: 900px;
-  color: #ddd;
-  font-size: 18px;
-  margin-top: 20px;
 }
 </style>
 
